@@ -26,7 +26,7 @@ The current implementation of the transformation pipelines uses Linked Pipes ETL
 * Phase-4 : ADMS files are saved on local FTP
 
 
-###Technical notes for the current implementation
-input data: Currently provided as bash process pointing to REST API
-output data: ftp://localhost:22/data/out/adms
+### Technical notes for the current implementation
+* input data: Currently provided as bash process pointing to REST API
+* output data: ftp://localhost:22/data/out/adms
  

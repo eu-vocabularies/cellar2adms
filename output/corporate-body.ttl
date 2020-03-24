@@ -1,0 +1,120 @@
+
+<http://publications.europa.eu/resource/dataset/corporate-body> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/accuralPeriodicity> <http://publications.europa.eu/resource/authority/frequency/OTHER>;
+  <http://purl.org/dc/terms/alternative> "Corporate body"@en;
+  <http://purl.org/dc/terms/description> """
+            <p>The corporate-body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span. Some other – international and national – corporate bodies are also included as far as they are used in the various systems in the Publications Office. The traceability of the chronological modifications is ensured when possible. </p>
+            <p>The Corporate body authority table is maintained by the Publications Office of the European Union on the EU Vocabularies website. </p>
+         """;
+  <http://purl.org/dc/terms/issued> "2012-07-05T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/BUL>,
+    <http://publications.europa.eu/resource/authority/language/CES>, <http://publications.europa.eu/resource/authority/language/DAN>,
+    <http://publications.europa.eu/resource/authority/language/DEU>, <http://publications.europa.eu/resource/authority/language/ELL>,
+    <http://publications.europa.eu/resource/authority/language/ENG>, <http://publications.europa.eu/resource/authority/language/EST>,
+    <http://publications.europa.eu/resource/authority/language/FIN>, <http://publications.europa.eu/resource/authority/language/FRA>,
+    <http://publications.europa.eu/resource/authority/language/GLE>, <http://publications.europa.eu/resource/authority/language/HRV>,
+    <http://publications.europa.eu/resource/authority/language/HUN>, <http://publications.europa.eu/resource/authority/language/ITA>,
+    <http://publications.europa.eu/resource/authority/language/LAV>, <http://publications.europa.eu/resource/authority/language/LIT>,
+    <http://publications.europa.eu/resource/authority/language/MLT>, <http://publications.europa.eu/resource/authority/language/NLD>,
+    <http://publications.europa.eu/resource/authority/language/POL>, <http://publications.europa.eu/resource/authority/language/POR>,
+    <http://publications.europa.eu/resource/authority/language/RON>, <http://publications.europa.eu/resource/authority/language/SLK>,
+    <http://publications.europa.eu/resource/authority/language/SLV>, <http://publications.europa.eu/resource/authority/language/SPA>,
+    <http://publications.europa.eu/resource/authority/language/SWE>;
+  <http://purl.org/dc/terms/publisher> <http://publications.europa.eu/resource/authority/corporate-body/PUBL>;
+  <http://purl.org/dc/terms/title> "Corporate body"@en;
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/dataset-type/NAL>;
+  <http://www.w3.org/2002/07/owl#versionInfo> "20200318-0";
+  <http://www.w3.org/ns/adms#versionNotes> "See release notes of version 20200318-0"@en;
+  <http://www.w3.org/ns/dcat#contactPoint> <http://publications.europa.eu/resource/dataset/corporate-body/contactPoint>;
+  <http://www.w3.org/ns/dcat#distribution> <http://publications.europa.eu/resource/distribution/corporate-body/rdf/skos_ap_act>,
+    <http://publications.europa.eu/resource/distribution/corporate-body/rdf/skos_core>,
+    <http://publications.europa.eu/resource/distribution/corporate-body/xml/atto>, <http://publications.europa.eu/resource/distribution/corporate-body/xml/cat>,
+    <http://publications.europa.eu/resource/distribution/corporate-body/xsd/immc_v2>,
+    <http://publications.europa.eu/resource/distribution/corporate-body/xsd/immc_v3>;
+  <http://www.w3.org/ns/dcat#keyword> "Authority Tables", "authority data", "controlled vocabulary",
+    "corporate-body", "corporatebodies";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE>;
+  <http://xmlns.com/foaf/0.1/Agent> <http://publications.europa.eu/resource/dataset/corporate-body/Agent> .
+
+<http://publications.europa.eu/resource/distribution/corporate-body/xsd/immc_v3> a
+    <http://www.w3.org/ns/dcat#Distribution>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/XML>;
+  <http://purl.org/dc/terms/license> "http://spdx.org/licenses/CC0-1.0";
+  <http://purl.org/dc/terms/title> "IMMC_V3 distribution of Corporate body";
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE>;
+  <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
+  <http://www.w3.org/ns/dcat#accessURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.07/zip>;
+  <http://www.w3.org/ns/dcat#downloadURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.07/zip>;
+  <http://www.w3.org/ns/dcat#packageFormat> "http://www.iana.org/assignments/media-types/application/zip" .
+
+<http://publications.europa.eu/resource/distribution/corporate-body/xsd/immc_v2> a
+    <http://www.w3.org/ns/dcat#Distribution>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/XML>;
+  <http://purl.org/dc/terms/license> "http://spdx.org/licenses/CC0-1.0";
+  <http://purl.org/dc/terms/title> "IMMC_V2 distribution of Corporate body";
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE>;
+  <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
+  <http://www.w3.org/ns/dcat#accessURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.08/zip>;
+  <http://www.w3.org/ns/dcat#downloadURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.08/zip>;
+  <http://www.w3.org/ns/dcat#packageFormat> "http://www.iana.org/assignments/media-types/application/zip" .
+
+<http://publications.europa.eu/resource/distribution/corporate-body/rdf/skos_ap_act>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF>;
+  <http://purl.org/dc/terms/license> "http://spdx.org/licenses/CC0-1.0";
+  <http://purl.org/dc/terms/title> "SKOS_AP_ACT distribution of Corporate body";
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE>;
+  <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
+  <http://www.w3.org/ns/dcat#accessURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.09/zip>;
+  <http://www.w3.org/ns/dcat#downloadURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.09/zip>;
+  <http://www.w3.org/ns/dcat#packageFormat> "http://www.iana.org/assignments/media-types/application/zip" .
+
+<http://publications.europa.eu/resource/distribution/corporate-body/rdf/skos_core>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/RDF>;
+  <http://purl.org/dc/terms/license> "http://spdx.org/licenses/CC0-1.0";
+  <http://purl.org/dc/terms/title> "SKOS_CORE distribution of Corporate body";
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE>;
+  <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
+  <http://www.w3.org/ns/dcat#accessURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.10/zip>;
+  <http://www.w3.org/ns/dcat#downloadURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.10/zip>;
+  <http://www.w3.org/ns/dcat#packageFormat> "http://www.iana.org/assignments/media-types/application/zip" .
+
+<http://publications.europa.eu/resource/distribution/corporate-body/xml/cat> a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/XML>;
+  <http://purl.org/dc/terms/license> "http://spdx.org/licenses/CC0-1.0";
+  <http://purl.org/dc/terms/title> "CAT distribution of Corporate body";
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE>;
+  <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
+  <http://www.w3.org/ns/dcat#accessURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.11/zip>;
+  <http://www.w3.org/ns/dcat#downloadURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.11/zip>;
+  <http://www.w3.org/ns/dcat#packageFormat> "http://www.iana.org/assignments/media-types/application/zip" .
+
+<http://publications.europa.eu/resource/distribution/corporate-body/xml/atto> a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/XML>;
+  <http://purl.org/dc/terms/license> "http://spdx.org/licenses/CC0-1.0";
+  <http://purl.org/dc/terms/title> "ATTO distribution of Corporate body";
+  <http://purl.org/dc/terms/type> <http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE>;
+  <http://www.w3.org/ns/adms#status> <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED>;
+  <http://www.w3.org/ns/dcat#accessURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.12/zip>;
+  <http://www.w3.org/ns/dcat#downloadURL> <http://publications.europa.eu/resource/cellar/07e1a665-2b56-11e7-9412-01aa75ed71a1.0001.12/zip>;
+  <http://www.w3.org/ns/dcat#packageFormat> "http://www.iana.org/assignments/media-types/application/zip" .
+
+<http://publications.europa.eu/resource/dataset/corporate-body/Agent> a <http://xmlns.com/foaf/0.1/Agent>;
+  <http://purl.org/dc/terms/type> "http://publications.europa.eu/resource/authority/corporate-body";
+  <http://www.w3.org/2006/vcard/ns#fn> "Publications Office of the European Union";
+  <http://www.w3.org/2006/vcard/ns#hasEmail> "OP-EU-VOCABULARIES@publications.europa.eu";
+  <http://www.w3.org/2006/vcard/ns#organisation-name> "Publications Office of the European Union";
+  <http://xmlns.com/foaf/0.1/name> "Publications Office of the European Union" .
+
+<http://publications.europa.eu/resource/dataset/corporate-body/contactPoint> a <http://www.w3.org/2006/vcard/ns#Kind>;
+  <http://www.w3.org/2006/vcard/ns#fn> "Publications Office of the European Union (EU Vocabularies team)";
+  <http://www.w3.org/2006/vcard/ns#hasEmail> "OP-EU-VOCABULARIES@publications.europa.eu";
+  <http://www.w3.org/2006/vcard/ns#organisation-name> "Publications Office of the European Union";
+  <http://xmlns.com/foaf/0.1/homePage> _:node1e46em93mx1 .
+
+_:node1e46em93mx1 a <http://xmlns.com/foaf/0.1/Document>;
+  <http://purl.org/dc/terms/title> "Eu Vocabularies Homepage";
+  <http://purl.org/dc/terms/type> <http://schema.org/WebPage>;
+  <http://schema.org/url> "https://publications.europa.eu/web/eu-vocabularies/home";
+  <http://xmlns.com/foaf/0.1/topic> "Homepage" .

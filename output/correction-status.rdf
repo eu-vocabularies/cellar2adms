@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/dataset/correction-status">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+	<alternative xmlns="http://purl.org/dc/terms/" xml:lang="en">Correction status</alternative>
+	<description xmlns="http://purl.org/dc/terms/">The Correction status NAL provides the possible statuses of proofreading of labels and descriptions.</description>
+	<issued xmlns="http://purl.org/dc/terms/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-31T00:00:00</issued>
+	<versionInfo xmlns="http://www.w3.org/2002/07/owl#">20160831-0</versionInfo>
+	<versionNotes xmlns="http://www.w3.org/ns/adms#" xml:lang="en">See release notes of version 20160831-0</versionNotes>
+	<keyword xmlns="http://www.w3.org/ns/dcat#">Authority Tables</keyword>
+	<keyword xmlns="http://www.w3.org/ns/dcat#">authority data</keyword>
+	<keyword xmlns="http://www.w3.org/ns/dcat#">controlled vocabulary</keyword>
+	<keyword xmlns="http://www.w3.org/ns/dcat#">correction-status</keyword>
+	<Agent xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://publications.europa.eu/resource/dataset/correction-status/Agent"/>
+	<type xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/NAL"/>
+	<distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/distribution/correction-status/rdf/skos_ap_act"/>
+	<distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/distribution/correction-status/rdf/skos_core"/>
+	<distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/distribution/correction-status/xml/cat"/>
+	<distribution xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/distribution/correction-status/xml/atto"/>
+	<title xmlns="http://purl.org/dc/terms/" xml:lang="en">Correction status</title>
+	<contactPoint xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/dataset/correction-status/contactPoint"/>
+	<accuralPeriodicity xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/frequency/OTHER"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/BUL"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/CES"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/DAN"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/DEU"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/ELL"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/EST"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/FIN"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/FRA"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/GLE"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/HRV"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/HUN"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/LAV"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/LIT"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/MLT"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/NLD"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/POL"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/POR"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/RON"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/SLK"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/SLV"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+	<language xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/language/SWE"/>
+	<publisher xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+	<theme xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/distribution/correction-status/rdf/skos_ap_act">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<type xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+	<format xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"/>
+	<license xmlns="http://purl.org/dc/terms/">http://spdx.org/licenses/CC0-1.0</license>
+	<title xmlns="http://purl.org/dc/terms/">SKOS_AP_ACT distribution of Correction status</title>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.01/zip"/>
+	<downloadURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.01/zip"/>
+	<packageFormat xmlns="http://www.w3.org/ns/dcat#">http://www.iana.org/assignments/media-types/application/zip</packageFormat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/distribution/correction-status/rdf/skos_core">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<type xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+	<format xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"/>
+	<license xmlns="http://purl.org/dc/terms/">http://spdx.org/licenses/CC0-1.0</license>
+	<title xmlns="http://purl.org/dc/terms/">SKOS_CORE distribution of Correction status</title>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.02/zip"/>
+	<downloadURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.02/zip"/>
+	<packageFormat xmlns="http://www.w3.org/ns/dcat#">http://www.iana.org/assignments/media-types/application/zip</packageFormat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/distribution/correction-status/xml/cat">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<type xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+	<format xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+	<license xmlns="http://purl.org/dc/terms/">http://spdx.org/licenses/CC0-1.0</license>
+	<title xmlns="http://purl.org/dc/terms/">CAT distribution of Correction status</title>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.03/zip"/>
+	<downloadURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.03/zip"/>
+	<packageFormat xmlns="http://www.w3.org/ns/dcat#">http://www.iana.org/assignments/media-types/application/zip</packageFormat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/distribution/correction-status/xml/atto">
+	<rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+	<type xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE"/>
+	<format xmlns="http://purl.org/dc/terms/" rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+	<license xmlns="http://purl.org/dc/terms/">http://spdx.org/licenses/CC0-1.0</license>
+	<title xmlns="http://purl.org/dc/terms/">ATTO distribution of Correction status</title>
+	<status xmlns="http://www.w3.org/ns/adms#" rdf:resource="http://publications.europa.eu/resource/authority/dataset-status/COMPLETED"/>
+	<accessURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.04/zip"/>
+	<downloadURL xmlns="http://www.w3.org/ns/dcat#" rdf:resource="http://publications.europa.eu/resource/cellar/9d563188-26c3-11e8-ac73-01aa75ed71a1.0001.04/zip"/>
+	<packageFormat xmlns="http://www.w3.org/ns/dcat#">http://www.iana.org/assignments/media-types/application/zip</packageFormat>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/dataset/correction-status/Agent">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+	<type xmlns="http://purl.org/dc/terms/">http://publications.europa.eu/resource/authority/corporate-body</type>
+	<fn xmlns="http://www.w3.org/2006/vcard/ns#">Publications Office of the European Union</fn>
+	<hasEmail xmlns="http://www.w3.org/2006/vcard/ns#">OP-EU-VOCABULARIES@publications.europa.eu</hasEmail>
+	<organisation-name xmlns="http://www.w3.org/2006/vcard/ns#">Publications Office of the European Union</organisation-name>
+	<name xmlns="http://xmlns.com/foaf/0.1/">Publications Office of the European Union</name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node1e46je1m8x1">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<type xmlns="http://purl.org/dc/terms/" rdf:resource="http://schema.org/WebPage"/>
+	<title xmlns="http://purl.org/dc/terms/">Eu Vocabularies Homepage</title>
+	<url xmlns="http://schema.org/">https://publications.europa.eu/web/eu-vocabularies/home</url>
+	<topic xmlns="http://xmlns.com/foaf/0.1/">Homepage</topic>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://publications.europa.eu/resource/dataset/correction-status/contactPoint">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+	<fn xmlns="http://www.w3.org/2006/vcard/ns#">Publications Office of the European Union (EU Vocabularies team)</fn>
+	<hasEmail xmlns="http://www.w3.org/2006/vcard/ns#">OP-EU-VOCABULARIES@publications.europa.eu</hasEmail>
+	<organisation-name xmlns="http://www.w3.org/2006/vcard/ns#">Publications Office of the European Union</organisation-name>
+	<homePage xmlns="http://xmlns.com/foaf/0.1/" rdf:nodeID="node1e46je1m8x1"/>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,7 +1,7 @@
 # Production of ADMS packages for EU vocabularies assets
 
 The process was imagined as a future component of a larger process that will facilitate the automated publication of EU Vocabularies to various portals supporting the ADMS standard.
-The implementation is based on the a process invoving the extraction of assets from Publications Office SPARQL endpoint and automated production of the ADMS metadata files for each of them.
+The implementation is based on a process invoving the extraction of assets from Publications Office SPARQL endpoint and automated production of the ADMS metadata files for each of them.
 The current implementation of the transformation pipelines uses Linked Pipes ETL (https://etl.linkedpipes.com/).
 
 

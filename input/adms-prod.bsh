@@ -1,0 +1,11 @@
+#!/bin/bash
+# Send process orders to pipeline
+
+while read -r url 
+do
+	echo "workurl" >> output.tmp
+	echo "$url" >> output.tmp
+	curl -i -X POST -H "Content-Type: multipart/form-data" -F "input=@output.tmp" http://localhost:8080/resources/executions?pipeline=http://localhost:8080/resources/pipelines/1575992126844
+	rm output.tmp
+
+done < /mnt/d/ftp/data/input/resource-list-joinup.csv
